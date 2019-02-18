@@ -13,7 +13,7 @@ def parsing(name,row1,row2):
 	x=np.asfarray(x,float)
 	y=np.asfarray(y,float)
 	return x,y
-
+	
 def copy_pattern(name):
 	path='D:\\Labs\\'
 	shutil.copytree('D:\\Labs\\pattern',path+name)
